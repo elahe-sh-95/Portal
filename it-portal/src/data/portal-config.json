@@ -1,0 +1,134 @@
+{
+  "announcements": [
+    {
+      "id": "1",
+      "title": "Scheduled Maintenance - Database Servers",
+      "content": "We will be performing scheduled maintenance on our primary database servers this Saturday from 2:00 AM to 6:00 AM EST. During this time, some services may experience intermittent connectivity issues. Please plan accordingly and save your work before the maintenance window.",
+      "priority": "maintenance",
+      "createdAt": "2024-07-15T10:30:00Z",
+      "author": "IT Infrastructure Team"
+    },
+    {
+      "id": "2",
+      "title": "Security Update Required",
+      "content": "All employees must update their passwords by end of week. Our security audit has identified that passwords older than 90 days need to be refreshed. Please visit the password management portal to update your credentials.",
+      "priority": "warning",
+      "createdAt": "2024-07-14T14:15:00Z",
+      "author": "Security Team"
+    },
+    {
+      "id": "3",
+      "title": "New Collaboration Tool Available",
+      "content": "We're excited to announce the rollout of our new team collaboration platform. This tool integrates with existing systems and provides enhanced features for project management and team communication. Training sessions will be held next week.",
+      "priority": "info",
+      "createdAt": "2024-07-13T09:00:00Z",
+      "author": "IT Operations"
+    },
+    {
+      "id": "4",
+      "title": "CRITICAL: Email Service Disruption",
+      "content": "We are currently experiencing issues with our email gateway. Some emails may be delayed or not delivered. Our team is working on resolving this issue urgently. Please use alternative communication channels for urgent matters.",
+      "priority": "critical",
+      "createdAt": "2024-07-15T16:45:00Z",
+      "author": "Network Operations Center"
+    }
+  ],
+  "tools": [
+    {
+      "id": "gitlab",
+      "name": "GitLab",
+      "description": "Source code management and CI/CD pipeline",
+      "url": "https://gitlab.internal.company.com",
+      "icon": "gitlab",
+      "category": "Development"
+    },
+    {
+      "id": "jira",
+      "name": "Jira",
+      "description": "Issue tracking and project management",
+      "url": "https://jira.internal.company.com",
+      "icon": "jira",
+      "category": "Project Management"
+    },
+    {
+      "id": "confluence",
+      "name": "Confluence",
+      "description": "Documentation and knowledge base",
+      "url": "https://confluence.internal.company.com",
+      "icon": "confluence",
+      "category": "Documentation"
+    },
+    {
+      "id": "glpi",
+      "name": "GLPI",
+      "description": "IT asset management and helpdesk",
+      "url": "https://glpi.internal.company.com",
+      "icon": "ticket",
+      "category": "IT Support"
+    },
+    {
+      "id": "zabbix",
+      "name": "Zabbix",
+      "description": "Infrastructure monitoring and alerting",
+      "url": "https://zabbix.internal.company.com",
+      "icon": "activity",
+      "category": "Monitoring"
+    },
+    {
+      "id": "jenkins",
+      "name": "Jenkins",
+      "description": "Automation server for CI/CD",
+      "url": "https://jenkins.internal.company.com",
+      "icon": "server",
+      "category": "Development"
+    },
+    {
+      "id": "sonarqube",
+      "name": "SonarQube",
+      "description": "Code quality and security analysis",
+      "url": "https://sonarqube.internal.company.com",
+      "icon": "code",
+      "category": "Development"
+    },
+    {
+      "id": "grafana",
+      "name": "Grafana",
+      "description": "Analytics and interactive visualization",
+      "url": "https://grafana.internal.company.com",
+      "icon": "bar-chart",
+      "category": "Monitoring"
+    },
+    {
+      "id": "vault",
+      "name": "HashiCorp Vault",
+      "description": "Secrets management and data protection",
+      "url": "https://vault.internal.company.com",
+      "icon": "lock",
+      "category": "Security"
+    },
+    {
+      "id": "nexus",
+      "name": "Nexus Repository",
+      "description": "Artifact repository manager",
+      "url": "https://nexus.internal.company.com",
+      "icon": "package",
+      "category": "Development"
+    },
+    {
+      "id": "ldap",
+      "name": "LDAP Directory",
+      "description": "User directory and authentication",
+      "url": "https://ldap.internal.company.com",
+      "icon": "users",
+      "category": "IT Support"
+    },
+    {
+      "id": "wiki",
+      "name": "Internal Wiki",
+      "description": "Company knowledge base and guides",
+      "url": "https://wiki.internal.company.com",
+      "icon": "book",
+      "category": "Documentation"
+    }
+  ]
+}
